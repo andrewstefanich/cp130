@@ -1,5 +1,5 @@
 # cp130
-demonstrating concurrency, networking, generics, cryptography in Java
+Simulated stock exchange application; demonstrating concurrency, networking, generics, cryptography in Java
 
 ## Documentation
-<a href="https://andrewstefanich.github.io/cp130/"> Javadoc</a>
+<a href="https://astefanich.github.io/cp130/"> Javadoc</a>
