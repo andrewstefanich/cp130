@@ -56,16 +56,16 @@ Example run through:</br>
 ![class_diagram](img/class_diagram.png?raw=true "Class Diagram")
 </br></br>
 
-<i>Order Queues</i></br>
-![order_queues](img/order_queues.png?raw=true "Order Queues")
-</br></br>
-
 <i>Broker Initialization</i></br>
 ![broker_initialization_sequence](img/broker_initialization_sequence.png?raw=true "Broker Initialization")
 </br></br>
 
 <i>Price Change Sequence</i></br>
 ![price_change_sequence](img/price_change_sequence.png?raw=true "Price Change Sequence")
+</br></br>
+
+<i>Order Queues</i></br>
+![order_queues](img/order_queues.png?raw=true "Order Queues")
 </br></br>
 
 <i>Command Sequence</i></br>
