@@ -6,7 +6,7 @@ Simulated stock exchange application; demonstrating concurrency, networking, gen
 Execute the bash script </br>
 <strong> ./run.sh </strong>
 
-<i><b>Note:</b></i>
+<i>Note:</i>
 For launch script to run successfully, you must have xterm command installed.
 First verify you have this by entering "which xterm".
 If no result is printed to console, you must then install it.
