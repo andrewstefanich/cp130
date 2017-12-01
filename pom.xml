@@ -16,21 +16,10 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.codehaus.mojo</groupId>
-			<artifactId>exec-maven-plugin</artifactId>
-			<version>1.3.2</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.slf4j</groupId>
-					<artifactId>slf4j-nop</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.slf4j</groupId>
-					<artifactId>jcl-over-slf4j</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
+		<!-- <dependency> <groupId>org.codehaus.mojo</groupId> <artifactId>exec-maven-plugin</artifactId> 
+			<version>1.3.2</version> <exclusions> <exclusion> <groupId>org.slf4j</groupId> 
+			<artifactId>slf4j-nop</artifactId> </exclusion> <exclusion> <groupId>org.slf4j</groupId> 
+			<artifactId>jcl-over-slf4j</artifactId> </exclusion> </exclusions> </dependency> -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -89,6 +78,7 @@
 		</plugins> </build> </profile> </profiles> -->
 
 	<build>
+		<!-- <sourceDirectory>src</sourceDirectory> -->
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -128,6 +118,15 @@
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
+
+			<!-- <plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.6</version>
+				<configuration>
+					<mainClass>app.NetExchangeDriver</mainClass>
+				</configuration>
+			</plugin> -->
 		</plugins>
 	</build>
 
