@@ -3,46 +3,23 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>edu.uw.astef1</groupId>
-	<artifactId>cp130</artifactId>
+	<groupId>com.github.astefanich</groupId>
+	<artifactId>stock-exchange-simulator</artifactId>
 	<packaging>jar</packaging>
 	<version>06</version>
-	<name>cp130-06-(Cryptography)</name>
+	<name>Stock Exchange Simulator</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<student>StefanichAJ</student>
+		<developer>StefanichAJ</developer>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
-	<repositories>
-		<repository>
-			<id>cp130-repository</id>
-			<name>Repository for CP130</name>
-			<url>http://faculty.washington.edu/rmoul/repository</url>
-		</repository>
-	</repositories>
-
 
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>edu.uw.ext</groupId>
-			<artifactId>cp130-framework</artifactId>
-			<version>1.0</version>
-			<!-- <configuration> <downloadSources>true</downloadSources> <downloadJavadocs>true</downloadJavadocs> 
-				</configuration> -->
-		</dependency>
-		<dependency>
-			<groupId>edu.uw.ext</groupId>
-			<artifactId>cp130-framework</artifactId>
-			<version>1.0</version>
-			<type>test-jar</type>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -61,12 +38,32 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.5</version>
 		</dependency>
+			<dependency>
+			<groupId>edu.uw.ext</groupId>
+			<artifactId>cp130-framework</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>edu.uw.ext</groupId>
+			<artifactId>cp130-framework</artifactId>
+			<version>1.0</version>
+			<type>test-jar</type>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.8.7</version>
 		</dependency>
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>cp130-repository</id>
+			<name>Repository for CP130</name>
+			<url>http://faculty.washington.edu/rmoul/repository</url>
+		</repository>
+	</repositories>
 
 
 	<build>
@@ -89,7 +86,7 @@
 				<artifactId>maven-assembly-plugin</artifactId>
 				<version>2.4</version>
 				<configuration>
-					<finalName>${student}-${project.artifactId}-${project.version}</finalName>
+					<finalName>${developer}-${project.artifactId}-${project.version}</finalName>
 					<formats>
 						<format>tar.gz</format>
 					</formats>

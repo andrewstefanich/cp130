@@ -14,52 +14,52 @@
 	<!-- Bean implementing edu.uw.ext.framework.account.AccountFactory -->
 	<bean
 		id="AccountFactory"
-		class="edu.uw.astef1.account.SimpleAccountFactory" />
+		class="com.github.astefanich.account.SimpleAccountFactory" />
 
 	<!-- Bean implementing edu.uw.ext.framework.account.Account -->
 	<bean
 		id="Account"
-		class="edu.uw.astef1.account.SimpleAccount"
+		class="com.github.astefanich.account.SimpleAccount"
 		scope="prototype" />
 
 	<!-- Bean implementing edu.uw.ext.framework.account.Address -->
 	<bean
 		id="Address"
-		class="edu.uw.astef1.account.SimpleAddress"
+		class="com.github.astefanich.account.SimpleAddress"
 		scope="prototype" />
 
 	<!-- Bean implementing edu.uw.ext.framework.account.CreditCard -->
 	<bean
 		id="CreditCard"
-		class="edu.uw.astef1.account.SimpleCreditCard"
+		class="com.github.astefanich.account.SimpleCreditCard"
 		scope="prototype" />
 
 	<!-- Bean implementing edu.uw.ext.framework.account.AccountManagerFactory -->
 	<bean
 		id="AccountManagerFactory"
-		class="edu.uw.astef1.account.SimpleAccountManagerFactory" />
+		class="com.github.astefanich.account.SimpleAccountManagerFactory" />
 
 	<!-- Bean providing implementation of edu.uw.ext.framework.account.DaoFactory -->
 	<bean
 		id="DaoFactory"
-		class="edu.uw.astef1.dao.JsonDaoFactory" />
+		class="com.github.astefanich.dao.JsonDaoFactory" />
 
 	<!-- Bean implementing ...framework.exchange.NetworkExchangeAdapterFactory -->
 	<bean
 		id="NetworkExchangeAdapterFactory"
-		class="edu.uw.astef1.exchange.ExchangeNetworkAdapterFactory" />
+		class="com.github.astefanich.exchange.ExchangeNetworkAdapterFactory" />
 
 	<!-- Bean implementing ...framework.exchange.NetworkExchangeProxyFactory -->
 	<bean
 		id="NetworkExchangeProxyFactory"
-		class="edu.uw.astef1.exchange.ExchangeNetworkProxyFactory" />
+		class="com.github.astefanich.exchange.ExchangeNetworkProxyFactory" />
 
 	<!-- Bean implementing edu.uw.ext.framework.broker.BrokerFactory (3 options).... -->
 
 	<!-- ExecutorBroker, multithreaded using Executor (threadPool) -->
 	<bean
 		id="BrokerFactory"
-		class="edu.uw.astef1.broker.concurrent.executor.ExecutorBrokerFactory" />
+		class="com.github.astefanich.broker.concurrent.executor.ExecutorBrokerFactory" />
 
 	<!-- ThreadedBroker, multithreaded using separate threads -->
 	<!-- <bean id="BrokerFactory" class="edu.uw.astef1.broker.concurrent.threaded.ThreadedBrokerFactory" 
@@ -72,6 +72,6 @@
 	<!-- Bean implementing edu.uw.ext.framework.order.ClientOrderCodec -->
 	<bean
 		id="ClientOrderCodec"
-		class="edu.uw.astef1.security.FileClientOrderCodec" />
+		class="com.github.astefanich.security.FileClientOrderCodec" />
 
 </beans>
