@@ -29,24 +29,24 @@ The script will auto launch three applications in separate windows..</br>
 Follow the on-screen instructions to see the events in action.</br>
 Example run through:</br>
 
-1) Open the exchange &emsp;&emsp;		(ENTER in server window)</br>
+1) Open the exchange &emsp;&emsp;&emsp;		(ENTER in server window)</br>
   -monitor should now be displaying price changes </br>
   -the broker will process any queued market orders </br>
 	
-2) Place stop orders &emsp;&emsp;	(ENTER in client window)</br>
+2) Place stop orders &emsp;&emsp;&emsp;		(ENTER in client window)</br>
 	-client orders are transmitted to exchange </br>
 	-based on the current price, orders are either queued
 	  or processed as market orders  </br>
 
-3) Close the exchange &emsp;&emsp;	(ENTER is server window) </br>
+3) Close the exchange &emsp;&emsp;&emsp;	(ENTER is server window) </br>
 	-monitor should no longer be reporting prices </br>
 	-client should be notified accordingly </br>
 
-4) Shutdown client	&emsp;&emsp;	(ENTER in client window) </br>
+4) Shutdown client	&emsp;&emsp;&emsp;	(ENTER in client window) </br>
 
-5) Shutdown monitor	&emsp;&emsp;	(CTRL + C  in monitor window) </br>
+5) Shutdown monitor	&emsp;&emsp;&emsp;	(CTRL + C  in monitor window) </br>
 
-6) Shutdown server	&emsp;&emsp;	(Q ENTER in server window) </br>
+6) Shutdown server	&emsp;&emsp;&emsp;	(Q ENTER in server window) </br>
 
 ## Documentation
 <!-- <a href="https://astefanich.github.io/cp130/"> Javadoc</a> -->
