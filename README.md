@@ -49,7 +49,7 @@ Example run through:</br>
 6) Shutdown server	&emsp;&emsp;&emsp;	(Q ENTER in server window) </br>
 
 ## Documentation
-<!-- <a href="https://astefanich.github.io/cp130/"> Javadoc</a> -->
+<strong>[Javadoc](https://astefanich.github.io/stock-exchange-simulator/)</strong></br></br>
 
 ## DIAGRAMS
 <i>Class Diagram</i></br>
